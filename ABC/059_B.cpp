@@ -6,10 +6,12 @@ int main() {
     cin >> str_a >> str_b;
 
     if(str_a.size() != str_b.size())
+    {
         if (str_a.size() > str_b.size())
             cout << "GREATER" << endl;
         else
             cout << "LESS" << endl;
+    }
     else
     {
     for (int i= 0, l = str_a.size(); i < l; ++i)
