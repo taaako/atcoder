@@ -2,7 +2,9 @@
 using namespace std;
 
 int main() {
-  int n,a;
-  cin >> n >> a;
-  cout << n * n - a << endl;
+  double a,b,g;
+  cin >> a >> g;
+  //g = (a + b) / 2;
+  b = g * 2 - a;
+  cout << b << endl;
 }

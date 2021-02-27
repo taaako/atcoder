@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-  double a,b,g;
-  cin >> a >> g;
-  //g = (a + b) / 2;
-  b = g * 2 - a;
-  cout << b << endl;
+  int m;
+  cin >> m;
+
+  // (24-m) + 24
+  cout << 48 - m << endl;
 }
